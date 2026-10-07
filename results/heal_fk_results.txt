@@ -1,0 +1,22 @@
+HEAL 6-DoF Forward Kinematics
+==============================
+
+q_bar (rad):
+[0.30, -0.40, 0.50, -0.20, 0.35, -0.25]
+
+End-effector: right_center
+
+Python FK position (m):
+[0.21074716, 0.07856450, 0.83433987]
+
+MuJoCo FK position (m):
+[0.21074781, 0.07856242, 0.83433955]
+
+Difference (Python - MuJoCo) (m):
+[-0.00000065, 0.00000208, 0.00000032]
+
+Position error:
+approximately 2.2e-6 m
+
+Conclusion:
+Python FK and MuJoCo FK agree within numerical tolerance.
