@@ -1,4 +1,4 @@
-# Robotics Lab 2 - Forward Kinematics
+# Robotics Lab 2 — Forward Kinematics
 
 ## Objective
 
@@ -7,16 +7,17 @@ This project implements and validates forward kinematics for:
 - HEAL 6-DoF robot
 - FRANKA 7-DoF robot
 
-The forward kinematics are calculated using Python and independently
+The forward kinematics are calculated independently using Python and
 validated using MuJoCo.
 
-The same joint configuration q_bar is used in both Python and MuJoCo.
+The same joint configuration q_bar is used in both Python and MuJoCo
+for each robot.
 
 ---
 
 ## Robots
 
-### HEAL - 6 DoF
+### HEAL — 6 DoF
 
 Joint configuration:
 
